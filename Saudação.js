@@ -6,6 +6,8 @@ function saudar(nome) {
   }
 }
 
-let nomeUsuario = prompt("Qual é o seu nome?");
-let mensagem = saudar(nomeUsuario);
-alert(mensagem);
+function mostrarSaudacao() {
+  let nomeUsuario = document.getElementById("nomeInput").value;
+  let mensagem = saudar(nomeUsuario);
+  document.getElementById("mensagem").textContent = mensagem;
+}
