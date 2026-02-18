@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #191994, #59b8e0);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: black;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 300px;
+  color: white;
+}
